@@ -1,0 +1,42 @@
+discrete random variable
+- finite domain
+- pmf p(x) summing up to 1
+
+continuous
+continuous domain
+prob density func integrating up to 1
+descriptors moments, entropies
+catigorical distribution vector of prob over the domain
+usefull for choices
+uniform distribution automatically implies a vector of uniform prob
+over the domain. absence of a prefrence
+
+Gaussian normal distribution
+natural events/independent measurements
+- mean and variance 
+
+multivariate random variables at the same time X, Y
+discrete/continuous multivariate
+- product of domains of outcomes
+- joint pmf,pdf p(X,Y)
+distribution on all the variables is joint distribution
+might be very high-dimensional
+contains all probabilistic information.
+- restriction only to some is marginal distribution
+
+conditioned random vars. - relation to random variables
+given another. X Y 
+- a domain of outcomes
+- conditional pmf/pdf 
+
+independence of two rand variables
+if and only if P(X,Y) = P(X)P(Y)
+
+laws
+Sum rule marginalization P(X) = Z P(X,Y)
+product rule P(X,Y) = P(XY)P(y)
+
+statistics
+often assume that data is i.i.d 
+independent samples do not affect eachother
+identical distributed samples from the same distribution 

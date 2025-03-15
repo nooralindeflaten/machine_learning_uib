@@ -1,0 +1,42 @@
+Plotting of distribution, 
+the rewards will be the prices
+so rewards = [0,5,10,20]
+probabilities = [0.35,0.3,0.25,0.10]
+E = 6
+V = (x - E(x))^2
+v1 = 36.5
+v2 = 249
+
+actions:
+distribution
+probability
+expected value
+variance
+combined statistics
+
+Class hierarchy 
+
+Creating agents to interact with the environment
+- Having a way to use gymnasium to init the bandits. Like the slot machines
+- The step function indicates that there should be an action taking plae
+- need to optimize the agents to be able to interact with the bandits.
+
+When interacting with the bandits you need to create agents. 
+the function of them needs to include 
+agents as render mode agent? 
+
+
+agents
+The agents need to have a way of interacting with the bandits. 
+A module needs to be made so that we can plot and calculate the loss functions etc. 
+###############
+Bandits one environment needs to be solved using the three algorithms. 
+epsilon greedy is a function that needs to explore the q values and then exploit the best. 
+
+there are k decisions 
+average reward of decisions i is an unknown parameter mu 
+We plan to make t consecutive decisions
+
+default params for epsilon and ucb function:
+c = 2, min_epsilon= 0.01, epsilon=0.1
+
